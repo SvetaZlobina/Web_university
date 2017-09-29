@@ -18,7 +18,7 @@ darja = {
         "age": 21
     }, {
         "name": "pavel",
-        "age": 15
+        "age": 21
     }],
 }
 
@@ -31,5 +31,6 @@ def find_children(emps_in):
         for child in children_arr:
             if child.get("age") > 18:
                 print(elem.get("name"))
+                break
 
 find_children(emps)
