@@ -1,2 +1,2 @@
 # Web_university
-Labs for developing web application
+- Lab2 - python newby
